@@ -8,5 +8,9 @@ public class Selenium_Program {
 		WebDriver driver = new ChromeDriver();
 		// System.out.println("Hii");
 		driver.get("https://www.google.com");
+		driver.getTitle();
+		System.out.println(driver.getTitle());
+		
+		driver.quit();
 	}
 }
