@@ -10,7 +10,6 @@ public class Selenium_Program {
 		driver.get("https://www.google.com");
 		driver.getTitle();
 		System.out.println(driver.getTitle());
-		
 		driver.quit();
 	}
 }
