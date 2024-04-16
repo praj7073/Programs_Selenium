@@ -1,0 +1,10 @@
+package Java_Programs;
+
+import org.openqa.selenium.WebDriver;
+
+public class Selenium_First_Program {
+	public static void main(String args[]) {
+			WebDriver driver = new ChromeDriver();
+			
+	}
+}
